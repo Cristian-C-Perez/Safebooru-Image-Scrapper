@@ -39,7 +39,7 @@ print(character_source)
 start_time = time.perf_counter()
 
 # Then it takes the tag and adds it to the full https link to use it to parse.
-source = requests.get(f"https://danbooru.donmai.us/posts?tags={character_source}").text
+source = requests.get(f"https://safebooru.donmai.us/posts?tags={character_source}").text
 
 # This is where BeautifulSoup comes into play for parsing the sections necessary till it narrows it down to the images section.
 soup = BeautifulSoup(source, 'lxml')
