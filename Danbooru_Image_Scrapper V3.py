@@ -1,6 +1,3 @@
-"""
-End user License Agreement goes here, need help on making this happen.
-"""
 
 import os
 from bs4 import BeautifulSoup
